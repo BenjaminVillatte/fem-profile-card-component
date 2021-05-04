@@ -14,7 +14,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   background-color: var(--color-dark-cyan);
-  background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+  background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
   background-position: bottom 40vh right 50vw, top 48vh left 50vw;
   background-repeat: no-repeat;
   display: flex;
@@ -36,7 +36,7 @@ body {
 .card-header {
   position:relative;
   height: 140px;
-  background-image: url('./images/bg-pattern-card.svg');
+  background-image: url('/images/bg-pattern-card.svg');
   background-position: center;
   position: relative;
 }
